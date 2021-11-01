@@ -6,41 +6,16 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0EE60F52272FF854002EFA53 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE60F51272FF854002EFA53 /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0EE60F4C272FF854002EFA53 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0EE60F4E272FF854002EFA53 /* LCS-100DaysOfSwiftUI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LCS-100DaysOfSwiftUI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE60F51272FF854002EFA53 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0EE60F58272FF8A9002EFA53 /* Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0EE60F4B272FF854002EFA53 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0EE60F45272FF854002EFA53 = {
 			isa = PBXGroup;
 			children = (
+				0EE60F58272FF8A9002EFA53 /* Day1.playground */,
 				0EE60F50272FF854002EFA53 /* LCS-100DaysOfSwiftUI */,
 				0EE60F4F272FF854002EFA53 /* Products */,
 			);
@@ -49,7 +24,6 @@
 		0EE60F4F272FF854002EFA53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EE60F4E272FF854002EFA53 /* LCS-100DaysOfSwiftUI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,26 +38,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		0EE60F4D272FF854002EFA53 /* LCS-100DaysOfSwiftUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EE60F55272FF854002EFA53 /* Build configuration list for PBXNativeTarget "LCS-100DaysOfSwiftUI" */;
-			buildPhases = (
-				0EE60F4A272FF854002EFA53 /* Sources */,
-				0EE60F4B272FF854002EFA53 /* Frameworks */,
-				0EE60F4C272FF854002EFA53 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LCS-100DaysOfSwiftUI";
-			productName = "LCS-100DaysOfSwiftUI";
-			productReference = 0EE60F4E272FF854002EFA53 /* LCS-100DaysOfSwiftUI */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		0EE60F46272FF854002EFA53 /* Project object */ = {
 			isa = PBXProject;
@@ -91,11 +45,6 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
-				TargetAttributes = {
-					0EE60F4D272FF854002EFA53 = {
-						CreatedOnToolsVersion = 13.1;
-					};
-				};
 			};
 			buildConfigurationList = 0EE60F49272FF854002EFA53 /* Build configuration list for PBXProject "LCS-100DaysOfSwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -110,21 +59,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EE60F4D272FF854002EFA53 /* LCS-100DaysOfSwiftUI */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0EE60F4A272FF854002EFA53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EE60F52272FF854002EFA53 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		0EE60F53272FF854002EFA53 /* Debug */ = {
@@ -242,28 +179,6 @@
 			};
 			name = Release;
 		};
-		0EE60F56272FF854002EFA53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7DL9Y9A7R;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		0EE60F57272FF854002EFA53 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C7DL9Y9A7R;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,15 +187,6 @@
 			buildConfigurations = (
 				0EE60F53272FF854002EFA53 /* Debug */,
 				0EE60F54272FF854002EFA53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0EE60F55272FF854002EFA53 /* Build configuration list for PBXNativeTarget "LCS-100DaysOfSwiftUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0EE60F56272FF854002EFA53 /* Debug */,
-				0EE60F57272FF854002EFA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
