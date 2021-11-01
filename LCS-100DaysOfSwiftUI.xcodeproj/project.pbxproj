@@ -8,12 +8,24 @@
 
 /* Begin PBXFileReference section */
 		0EE60F58272FF8A9002EFA53 /* Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EE60F59272FF95A002EFA53 /* Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EE60F5A272FF96A002EFA53 /* Day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EE60F5B272FF975002EFA53 /* Day4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EE60F5C272FF97F002EFA53 /* Day5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EE60F5D272FF98C002EFA53 /* Day6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day6.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0EE60F5E272FF997002EFA53 /* Day7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day7.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0EE60F45272FF854002EFA53 = {
 			isa = PBXGroup;
 			children = (
+				0EE60F5E272FF997002EFA53 /* Day7.playground */,
+				0EE60F5D272FF98C002EFA53 /* Day6.playground */,
+				0EE60F5C272FF97F002EFA53 /* Day5.playground */,
+				0EE60F5B272FF975002EFA53 /* Day4.playground */,
+				0EE60F5A272FF96A002EFA53 /* Day3.playground */,
+				0EE60F59272FF95A002EFA53 /* Day2.playground */,
 				0EE60F58272FF8A9002EFA53 /* Day1.playground */,
 				0EE60F4F272FF854002EFA53 /* Products */,
 			);
