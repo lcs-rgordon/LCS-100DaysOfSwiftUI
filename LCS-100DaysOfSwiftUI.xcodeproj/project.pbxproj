@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0EE60F51272FF854002EFA53 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0EE60F58272FF8A9002EFA53 /* Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -16,7 +15,6 @@
 			isa = PBXGroup;
 			children = (
 				0EE60F58272FF8A9002EFA53 /* Day1.playground */,
-				0EE60F50272FF854002EFA53 /* LCS-100DaysOfSwiftUI */,
 				0EE60F4F272FF854002EFA53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -26,14 +24,6 @@
 			children = (
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0EE60F50272FF854002EFA53 /* LCS-100DaysOfSwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				0EE60F51272FF854002EFA53 /* main.swift */,
-			);
-			path = "LCS-100DaysOfSwiftUI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
